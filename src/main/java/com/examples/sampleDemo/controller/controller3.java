@@ -1,8 +1,13 @@
 package com.examples.sampleDemo.controller;
 
+import org.springframework.web.bind.annotation.RestController;
 
-@Restcontroller
+@RestController
 public class controller3 {
-
-  "say hello";
+	
+	String hello()
+	{
+    return "say hello";
+   
+	}
 }
